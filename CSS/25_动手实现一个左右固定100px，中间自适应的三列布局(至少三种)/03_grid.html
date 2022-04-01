@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .container {
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 100px auto 100px;
+      }
+      .left,
+      .right {
+        background-color: cornflowerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left"></div>
+      <div class="content"></div>
+      <div class="right"></div>
+    </div>
+  </body>
+</html>

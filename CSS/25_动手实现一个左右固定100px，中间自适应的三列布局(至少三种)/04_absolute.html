@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>absolute</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .container {
+        height: 100vh;
+        position: relative;
+      }
+      .left,
+      .right {
+        background-color: cornflowerblue;
+        width: 100px;
+      }
+      .left,
+      .right,
+      .content {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+      }
+      .left {
+        left: 0;
+      }
+      .right {
+        right: 0;
+      }
+      .content {
+        left: 100px;
+        right: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left"></div>
+      <div class="content"></div>
+      <div class="right"></div>
+    </div>
+  </body>
+</html>
