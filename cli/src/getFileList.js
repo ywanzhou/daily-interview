@@ -1,8 +1,9 @@
-var fs = require('fs')
-var join = require('path').join
+const fs = require('fs')
+const join = require('path').join
+const sep = require('path').sep
 const exclude = ['.git', 'cli']
-
-module.exports = function getJsonFiles(jsonPath) {
+const p = join(__dirname, '..', '..')
+module.exports = function getJsonFiles(jsonPath = p) {
   let jsonFiles = {}
   function findJsonFile(path, flag) {
     let files = fs.readdirSync(path)
@@ -17,7 +18,8 @@ module.exports = function getJsonFiles(jsonPath) {
       let fPath = join(path, item)
       let stat = fs.statSync(fPath)
       if (flag) {
-        jsonFiles[path].push(item)
+        const p = path.split(sep).at(-1)
+        jsonFiles[p].push(item)
         continue
       }
       // 递归调用

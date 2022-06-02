@@ -1,6 +1,6 @@
 const getFileList = require('./getFileList')
-const fileList = getFileList('.')
-function sort(arr) {}
+const path = require('path')
+const fileList = getFileList()
 let content = ''
 
 /*

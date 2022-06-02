@@ -16,6 +16,7 @@ const footer = readFile('footer.txt')
 const readme = header + content + footer
 
 try {
+  console.log(readme)
   fs.writeFileSync(path.join(__dirname, '..', '..', 'README.md'), readme)
   console.log('更新成功')
 } catch (error) {
