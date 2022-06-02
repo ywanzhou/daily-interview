@@ -6,7 +6,7 @@ let content = ''
 /*
 `
 <details>
-<summary><h4 style="display:inline-block">${title}</h4></summary>
+<summary><b style="display:inline-block">${title}</b></summary>
  <ul>
      <li><a href="${path}">${liName}</a></li>
  </ul>
@@ -16,7 +16,7 @@ let content = ''
 for (const title in fileList) {
   let _ = `
 <details>
-<summary><h4 style="display:inline-block">${title}</h4></summary>
+<summary><b style="display:inline-block">${title}</b></summary>
   <ul>`
   let itemList = fileList[title]
   itemList = itemList.sort((a, b) => {
