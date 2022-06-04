@@ -75,6 +75,7 @@
     <li><a href="HTML/22_script标签有什么常用属性？">22_script标签有什么常用属性？</a></li>
     <li><a href="HTML/23_详细说一下script标签的defer属性和async属性">23_详细说一下script标签的defer属性和async属性</a></li>
     <li><a href="HTML/24_HTML中那些标签允许省略结尾标签？">24_HTML中那些标签允许省略结尾标签？</a></li>
+    <li><a href="HTML/25_为什么区分回流和重绘？">25_为什么区分回流和重绘？</a></li>
   </ul>
 </details>
       
