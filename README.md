@@ -231,6 +231,7 @@
     <li><a href="工程化/04_babel-polyfill是干什么的？">04_babel-polyfill是干什么的？</a></li>
     <li><a href="工程化/05_从你的角度说说webpack是做什么？">05_从你的角度说说webpack是做什么？</a></li>
     <li><a href="工程化/06_封装一个组件需要考虑一些什么？">06_封装一个组件需要考虑一些什么？</a></li>
+    <li><a href="工程化/07_说一下mock以及其原理">07_说一下mock以及其原理</a></li>
   </ul>
 </details>
       
