@@ -198,6 +198,7 @@
     <li><a href="JavaScript/113_说一说ES的新特性">113_说一说ES的新特性</a></li>
     <li><a href="JavaScript/114_如何判断一个变量是字符串类型">114_如何判断一个变量是字符串类型</a></li>
     <li><a href="JavaScript/115_说一下你了解的Promise方法">115_说一下你了解的Promise方法</a></li>
+    <li><a href="JavaScript/116_基本类型和引用类型的区别">116_基本类型和引用类型的区别</a></li>
   </ul>
 </details>
       
