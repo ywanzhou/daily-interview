@@ -274,6 +274,14 @@
 </details>
       
 <details>
+<summary><b style="font-weight:600;font-size:1.23rem;display:inline-block;margin:8px 0;">算法</b></summary>
+  <ul>
+    <li><a href="算法/01_请对已知数组进行升序排序">01_请对已知数组进行升序排序</a></li>
+    <li><a href="算法/02_有效的括号">02_有效的括号</a></li>
+  </ul>
+</details>
+      
+<details>
 <summary><b style="font-weight:600;font-size:1.23rem;display:inline-block;margin:8px 0;">网络</b></summary>
   <ul>
     <li><a href="网络/01_HTTP包含的几种请求方式">01_HTTP包含的几种请求方式</a></li>
